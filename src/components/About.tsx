@@ -15,6 +15,17 @@ const About = () => {
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <div className="w-24 h-1 bg-primary-500 rounded mb-8"></div>
+          
+          {/* Profile Photo */}
+          <div className="mb-8">
+            <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary-500 shadow-lg">
+              <img 
+                src="https://ik.imagekit.io/avpe74sdx/profile%20photo.png?updatedAt=1757611972565" 
+                alt="Profile" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center">
