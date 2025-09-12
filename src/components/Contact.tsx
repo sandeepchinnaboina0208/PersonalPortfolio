@@ -188,7 +188,7 @@ const Contact = () => {
               <h3 className="text-xl font-bold mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/Sandeepchinnaboina0208/" 
+                  href="https://github.com/sandeepchinnaboina0208" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`p-3 rounded-full ${
