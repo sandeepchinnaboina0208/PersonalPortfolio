@@ -10,45 +10,17 @@ interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: "Full Stack Developer Intern",
-    company: "Tech Solutions Pvt Ltd",
+    title: "Intern",
+    company: "Principal Global Services",
     location: "Hyderabad, India",
-    period: "May 2024 - July 2024",
+    period: "January 2026 - May 2026",
     type: "Internship",
     description: [
-      "Developed and maintained web applications using React.js and Node.js",
-      "Collaborated with the design team to implement responsive UI components",
-      "Participated in code reviews and contributed to improving code quality",
-      "Worked on RESTful API development and database optimization"
+      "Developed the Process in the development environment using Python and AWS cloud services.",
+      "Implemented Infrastructure as Code (IaC) using AWS SAM templates to create and manage cloud resources",
+      "Designed AWS Step Functions and Lambda functions to automate workflow execution and business logic processing",
+      "Built an ETL process to transform raw input files received from external vendors and store processed outputs in Amazon S3"
     ],
-    technologies: ["React.js", "Node.js", "MongoDB", "Express", "Git"]
+    technologies: ["Python", "AWS", "Git"]
   },
-  {
-    title: "Web Development Intern",
-    company: "StartupHub",
-    location: "Remote",
-    period: "Jan 2024 - Apr 2024",
-    type: "Internship",
-    description: [
-      "Built responsive landing pages and dashboard interfaces",
-      "Implemented user authentication and authorization features",
-      "Optimized website performance and improved loading times by 40%",
-      "Collaborated with cross-functional teams in an Agile environment"
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"]
-  },
-  {
-    title: " freelance Web Developer",
-    company: "Self-Employed",
-    location: "Nellore, India",
-    period: "2023 - Present",
-    type: "Freelance",
-    description: [
-      "Designed and developed websites for local businesses",
-      "Created e-commerce solutions with payment integration",
-      "Provided ongoing maintenance and support services",
-      "Managed client relationships and project deliverables"
-    ],
-    technologies: ["React", "Django", "PostgreSQL", "Tailwind CSS"]
-  }
 ];
